@@ -14,13 +14,8 @@
 
 # inherit from common tblte
 -include device/samsung/tblte-common/BoardConfigCommon.mk
-TARGET_OTA_ASSERT_DEVICE := tblte,tbltexx,tbltedt
 
-TARGET_ARCH := arm
-TARGET_ARCH_VARIANT := armv7-a-neon
-TARGET_CPU_VARIANT := cortex-a15
-TARGET_CPU_ABI := armeabi-v7a
-TARGET_CPU_ABI2 := armeabi
+TARGET_OTA_ASSERT_DEVICE := tblte,tbltexx,tbltedt
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144
